@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RcmdrPlugin.ROC 1.0-13\n"
+"POT-Creation-Date: 2014-05-08 00:29\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Hosmer-Lemeshow GOF Test"
+msgstr ""
+
+msgid "You must enter the number of bins to use to calculate quantiles."
+msgstr ""
+
+msgid "Number of bins"
+msgstr ""
+
+msgid "No GLM model selected."
+msgstr ""
+
+msgid "Plot ROC curve"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Direction"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Density options"
+msgstr ""
+
+msgid "Distributions options"
+msgstr ""
+
+msgid "Smoothing method"
+msgstr ""
+
+msgid "Bandwidth"
+msgstr ""
+
+msgid "Kernel"
+msgstr ""
+
+msgid "Distribution of controls"
+msgstr ""
+
+msgid "Distribution of cases"
+msgstr ""
+
+msgid "Bootstrap options"
+msgstr ""
+
+msgid "Method"
+msgstr ""
+
+msgid "Type of CI"
+msgstr ""
+
+msgid "Thresholds"
+msgstr ""
+
+msgid "Confidence level number of replicates"
+msgstr ""
+
+msgid "Partial AUC"
+msgstr ""
+
+msgid "From:"
+msgstr ""
+
+msgid "To:"
+msgstr ""
+
+msgid "Focus"
+msgstr ""
+
+msgid "Plot Options"
+msgstr ""
+
+msgid "Plot Labels"
+msgstr ""
+
+msgid "Display area as polygon"
+msgstr ""
+
+msgid "Display information on plot"
+msgstr ""
+
+msgid "Display threshold(s)"
+msgstr ""
+
+msgid "CI plot type"
+msgstr ""
+
+msgid "You must set a confidence interval level."
+msgstr ""
+
+msgid "Confidence interval level outside of range."
+msgstr ""
+
+msgid "You must set a confidence interval number of replicates."
+msgstr ""
+
+msgid "Confidence interval number of replicates should be a pozitive number."
+msgstr ""
+
+msgid "You must set a partial AUC 'to' limit."
+msgstr ""
+
+msgid "Partial AUC 'to' limit outside of range."
+msgstr ""
+
+msgid "You must set a partial AUC 'from' limit."
+msgstr ""
+
+msgid "Partial AUC 'from' limit outside of range."
+msgstr ""
+
+msgid "Custom threshold should not be empty."
+msgstr ""
+
+msgid "Numeric bandwidth"
+msgstr ""
+
+msgid "Adjustment"
+msgstr ""
+
+msgid "Confidence level"
+msgstr ""
+
+msgid "Values (Se/Sp/Custom thres.)"
+msgstr ""
+
+msgid "Custom threshold"
+msgstr ""
+
+msgid "Paired ROC curves comparison"
+msgstr ""
+
+msgid "Predictions variable 1 (pick one)"
+msgstr ""
+
+msgid "Predictions variable 2 (pick one)"
+msgstr ""
+
+msgid "Outcome variable (pick one)"
+msgstr ""
+
+msgid "Test method"
+msgstr ""
+
+msgid "Alternative"
+msgstr ""
+
+msgid "General variable 1"
+msgstr ""
+
+msgid "General variable 2"
+msgstr ""
+
+msgid "Legend options"
+msgstr ""
+
+msgid "Color of ROC 1"
+msgstr ""
+
+msgid "Color of ROC 2"
+msgstr ""
+
+msgid "Line type of ROC 1"
+msgstr ""
+
+msgid "Line type of ROC 2"
+msgstr ""
+
+msgid "You must select a prediction variable 1."
+msgstr ""
+
+msgid "You must select a prediction variable 2."
+msgstr ""
+
+msgid "No outcome variable selected."
+msgstr ""
+
+msgid "Custom threshold for variable 1 should not be empty."
+msgstr ""
+
+msgid "Custom threshold for variable 2 should not be empty."
+msgstr ""
+
+msgid "Number of replicates"
+msgstr ""
+
+msgid "Values (Se/Sp/Custom thres.) for variable 1"
+msgstr ""
+
+msgid "Values (Se/Sp/Custom thres.) for variable 2"
+msgstr ""
+
+msgid "Legend of ROC 1"
+msgstr ""
+
+msgid "Legend of ROC 2"
+msgstr ""
+
+msgid "Custom threshold for variable 1"
+msgstr ""
+
+msgid "Custom threshold for variable 2"
+msgstr ""
+
+msgid "Unpaired ROC curves comparison"
+msgstr ""
+
+msgid "Outcome variable 1 (pick one)"
+msgstr ""
+
+msgid "Outcome variable 2(pick one)"
+msgstr ""
+
+msgid "No outcome variable 1 selected."
+msgstr ""
+
+msgid "No outcome variable 2 selected."
+msgstr ""
+
+msgid "Predictions variable (pick one)"
+msgstr ""
+
+msgid "Labels variable (pick one)"
+msgstr ""
+
+msgid "Plot Labels and Points"
+msgstr ""
+
+msgid "Performance measures"
+msgstr ""
+
+msgid "Performance measure (y) (pick one)"
+msgstr ""
+
+msgid "Performance measure (x) (pick one or none)"
+msgstr ""
+
+msgid "Print cutoffs at"
+msgstr ""
+
+msgid "You must select a prediction variable."
+msgstr ""
+
+msgid "No labels variables selected."
+msgstr ""
+
+msgid "You must select a performance measure (y) variable."
+msgstr ""
+
+msgid "The performance measures, x and y should be different."
+msgstr ""
+
+msgid "Partial AUC upt to fpr of"
+msgstr ""
+
+msgid "Calibration error window size"
+msgstr ""
+
+msgid "Cost fp adjustment"
+msgstr ""
+
+msgid "Cost fn adjustment"
+msgstr ""
+
+msgid "x-axis label"
+msgstr ""

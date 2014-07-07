@@ -1,0 +1,29 @@
+# Some Rcmdr menus for the ROC package glmP(2)
+# When the plug-in is loaded, these menus are merged with the standard Rcmdr menus
+
+#   type    menu/item      operation/parent  label                              command/menu                activation    install?
+menu    rocMenu       topMenu         ""                                      ""                          ""    ""
+item    topMenu         cascade         "ROC"                                 rocMenu                   ""                      ""
+
+
+
+menu    pROCMenu       rocMenu         ""                                      ""                          ""    ""
+item    rocMenu         cascade        "pROC"                                 pROCMenu                   ""    ""
+
+item    pROCMenu       command         "Plot ROC curve for data..."              fncvpROC        "numericP() && twoLevelFactorsP()" "packageAvailable('pROC')"
+item    pROCMenu       command         "Paired ROC curves comparison..."              fncPairedpROC        "numericP(2) && twoLevelFactorsP()" "packageAvailable('pROC')"
+item    pROCMenu       command         "Unpaired ROC curves comparison..."              fncUnpairedpROC        "numericP(2) && twoLevelFactorsP(2)" "packageAvailable('pROC')"
+item    pROCMenu       command         "Hosmer-Lemeshow GOF test..."              fndHosmerLemeshow        "glmP()" "packageAvailable('ResourceSelection')"
+item    pROCMenu       command         "Plot ROC curve for logistic regression model..."              fncLRpROC        "glmP()" "packageAvailable('pROC')"
+
+
+menu    ROCRMenu       rocMenu         ""                                      ""                          ""    ""
+item    rocMenu         cascade        "ROCR"                                 ROCRMenu                   ""    ""
+
+item    ROCRMenu       command         "Plot ROC..."              fncvROCR        "numericP(2)" "packageAvailable('ROCR')"
+
+
+menu    ReclassificationMenu       rocMenu         ""                                      ""                          ""    ""
+item    rocMenu         cascade        "Reclassification"                                 ReclassificationMenu                   ""    ""
+
+item    ReclassificationMenu       command         "Reclassification..."              fncReclassification        "glmP()" "packageAvailable('PredictABEL')"

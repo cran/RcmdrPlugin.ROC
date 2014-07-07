@@ -1,0 +1,10 @@
+# Mannualy edited. ttkprogressbar, tkwidget, setTkProgressBar, tkbutton,  , pROC, ROCR, ResourceSelection, PredictABEL
+
+
+import(stats, Rcmdr, ResourceSelection, PredictABEL)
+importFrom(pROC, roc, plot.roc, auc, ci, roc.test, smooth.roc, coords)
+importFrom(ROCR, performance, prediction)
+importFrom(tcltk, ttknotebook, tkadd, tkselect, ttklabel, tkbutton)
+#importFrom(tcltk2, chooseColor)
+
+exportPattern("^[^\\.]")
