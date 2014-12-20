@@ -1,4 +1,6 @@
 Version 1.0-1: initial version in package form
 
 Version 1.0-17: removed PredictABEL functionality. minor improvements. 
+
+Version 1.0-18: small changes to allow future compatibility with the upcomming pROC package
    
