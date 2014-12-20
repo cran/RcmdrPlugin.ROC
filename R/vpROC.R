@@ -457,12 +457,12 @@ if (partialauc == "TRUE") {
 # doItAndPrint(command)
 command <- paste("roc.obj <- pROC::roc(", label, " ~ ", prediction, ", data=", .activeDataSet, ", na.rm=", narm, ", percent=", percent, ", direction='", direction, "'",  
                  ", partial.auc=", partialauc, ", partial.auc.focus='", partialfocus, "'", ", partial.auc.correct=", partialcorrect, 
-                 ", auc=", auc, ", plot=FALSE", ")", sep = "")
+                 ", auc=", auc, ", plot=FALSE, ci=TRUE, of='auc', conf.level=", cilevel, ", ci.method='", cimethod,"', boot.n=", cibootn, ", boot.stratified=", cibootstratified,")", sep = "")
 doItAndPrint(command)
 if (plot == "TRUE") {
   command <- paste("plot(roc.obj, add=", add,
                    ", print.auc=", printauc, ", auc.polygon=", aucpolygon, ", max.auc.polygon=", maxaucpolygon, 
-                   ", print.auc.x=ifelse(roc.obj$percent, 50, .5), print.auc.y=ifelse(roc.obj$percent, 45, .45)",
+                   ", print.auc.x=ifelse(roc.obj$percent, 50, .5), print.auc.y=ifelse(roc.obj$percent, 45, .45), print.auc.pattern='AUC: %.2f (%.2f, %.2f)'",
                    #", auc.polygon.col='", colorroc, "AA'", ", max.auc.polygon.col='", colorroc, "22'",
                    ", grid=", grid, ", identity=", identity, ", col='", colorroc, "', lty='", ltyroc, "'", #", col='", colorroc, "', lty='", ltyroc, "'",
                    ", print.thres=", threshold, ", print.thres.adj=c(0,0.5), print.thres.cex=0.7, print.thres.pattern='%.2f (%.2f, %.2f)'", 

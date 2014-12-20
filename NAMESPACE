@@ -1,7 +1,7 @@
 # Mannualy edited. ttkprogressbar, tkwidget, setTkProgressBar, tkbutton,  , pROC, ROCR, ResourceSelection, PredictABEL
 
 
-import(stats, Rcmdr, ResourceSelection, PredictABEL)
+import(stats, Rcmdr, ResourceSelection)
 importFrom(pROC, roc, plot.roc, auc, ci, roc.test, smooth.roc, coords)
 importFrom(ROCR, performance, prediction)
 importFrom(tcltk, ttknotebook, tkadd, tkselect, ttklabel, tkbutton)

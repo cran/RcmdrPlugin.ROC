@@ -22,8 +22,3 @@ item    rocMenu         cascade        "ROCR"                                 RO
 
 item    ROCRMenu       command         "Plot ROC..."              fncvROCR        "numericP(2)" "packageAvailable('ROCR')"
 
-
-menu    ReclassificationMenu       rocMenu         ""                                      ""                          ""    ""
-item    rocMenu         cascade        "Reclassification"                                 ReclassificationMenu                   ""    ""
-
-item    ReclassificationMenu       command         "Reclassification..."              fncReclassification        "glmP()" "packageAvailable('PredictABEL')"

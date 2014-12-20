@@ -171,7 +171,7 @@ closeDialog()
     
 
     #Daniel
-    command <- paste("pred <- prediction(", .activeDataSet, "$", predictions, ", ", 
+    command <- paste("pred <- prediction(", .activeDataSet, "$", prediction, ", ", 
                      .activeDataSet, "$", label, ")", sep = "")
     doItAndPrint(command)
 
