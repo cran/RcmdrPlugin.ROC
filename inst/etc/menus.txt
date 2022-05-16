@@ -17,8 +17,8 @@ item    pROCMenu       command         "Hosmer-Lemeshow GOF test..."            
 item    pROCMenu       command         "Plot ROC curve for logistic regression model..."              fncLRpROC        "glmP()" "packageAvailable('pROC')"
 
 
-menu    ROCRMenu       rocMenu         ""                                      ""                          ""    ""
-item    rocMenu         cascade        "ROCR"                                 ROCRMenu                   ""    ""
+#menu    ROCRMenu       rocMenu         ""                                      ""                          ""    ""
+#item    rocMenu         cascade        "ROCR"                                 ROCRMenu                   ""    ""
 
-item    ROCRMenu       command         "Plot ROC..."              fncvROCR        "numericP(2)" "packageAvailable('ROCR')"
+#item    ROCRMenu       command         "Plot ROC..."              fncvROCR        "numericP(2)" "packageAvailable('ROCR')"
 

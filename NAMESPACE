@@ -1,10 +1,11 @@
 # Mannualy edited. ttkprogressbar, tkwidget, setTkProgressBar, tkbutton,  , pROC, ROCR, ResourceSelection, PredictABEL importFrom(pROC, roc, plot.roc, auc, ci, roc.test, smooth.roc, coords) install_github("xrobin/pROC@s3_methods_namespace")
 #, smooth
 
-import(stats, Rcmdr, ResourceSelection)
+import(stats, Rcmdr)
 importFrom(pROC, roc, auc, ci, roc.test, coords)
-importFrom(ROCR, performance, prediction)
+#importFrom(ROCR, performance, prediction)
 importFrom(tcltk, ttknotebook, tkadd, tkselect, ttklabel, tkbutton)
 #importFrom(tcltk2, chooseColor)
-
+importFrom("grDevices", "col2rgb", "palette", "rgb")
+importFrom(ResourceSelection, hoslem.test)
 exportPattern("^[^\\.]")

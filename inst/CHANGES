@@ -4,3 +4,4 @@ Version 1.0-17: removed PredictABEL functionality. minor improvements.
 
 Version 1.0-18: small changes to allow future compatibility with the upcomming pROC package
    
+Version 1.0-19: small changes to correct the NOTE on CRAN servers

@@ -1,6 +1,5 @@
 \name{RcmdrPlugin.ROC-internal}
 \title{Internal RcmdrPlugin.ROC objects}
-\alias{fncvROCR}
 \alias{fncvpROC}
 \alias{fncPairedpROC}
 \alias{fncUnpairedpROC}
